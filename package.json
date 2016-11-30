@@ -1,0 +1,25 @@
+{
+  "name": "dont-break-bar",
+  "description": "Second test project for verifying dont-break tool",
+  "version": "0.0.0-semantic-release",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/dont-break-bar.git"
+  },
+  "keywords": ["dont-break"],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/bahmutov/dont-break-bar/issues"
+  },
+  "homepage": "https://github.com/bahmutov/dont-break-bar#readme",
+  "dependencies": {
+    "dont-break-foo": "^1.0.1"
+  }
+}
